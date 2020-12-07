@@ -6,12 +6,11 @@ target 'start' do
   use_frameworks!
 
   # Pods for app
-  pod 'Alamofire', '~> 4.5'
+  pod 'Alamofire', '~> 4.9.0'
   pod 'SwiftyJSON', '~> 4.1.0'
   pod 'SDWebImage', '~> 4.0'
-  pod 'RealmSwift', '~> 3.6.0'
-  pod 'SnapKit', '~> 4.0.0'
-  pod 'ObjectMapper', '~> 3.2.0'
-  pod 'AlamofireObjectMapper'
+  pod 'SnapKit', '~> 5.0.0'
+  pod 'ObjectMapper', '~> 3.5.3'
+  pod 'AlamofireObjectMapper', '~> 5.2.1'
 
 end
